@@ -20,7 +20,7 @@ def login():
            pass
     else:
         try:
-            db1 = pymysql.connect(host='localhost', user='root', password='Death@123', database='hotelui')
+            db1 = pymysql.connect(host='localhost', user='root', password='Death'#', database='hotelui')
             cur = db1.cursor()
             cur.execute("select * from customerinformation where Email=%s and Password=%s ",(Uname.get(),Pass.get()))
             row = cur.fetchone()
