@@ -21,7 +21,7 @@ def Submit():
         db1 = pymysql.connect(
             host = 'localhost',
             user = 'root',
-            password = 'Death@123',
+            password = '#',
             database = 'hotelui'
 
         )
