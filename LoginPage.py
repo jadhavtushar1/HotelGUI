@@ -8,7 +8,7 @@ from twilio.rest import Client
 
 
 # ------------------------ login button function-------------------------
-db1 = pymysql.connect(host='localhost', user='root', password='Death@123', database='hotelui')
+db1 = pymysql.connect(host='localhost', user='root', password='Death'#', database='hotelui')
 
 
 def login():
