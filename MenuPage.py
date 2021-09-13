@@ -3,7 +3,7 @@ from PIL import Image,ImageTk
 from tkinter import messagebox
 from tkinter import ttk
 import pymysql
-db1 = pymysql.connect(host='localhost', user='root', password='Death@123', database='hotelui')
+db1 = pymysql.connect(host='localhost', user='root', password='#', database='hotelui')
 cr1 = db1.cursor()
 cr2 = db1.cursor()
 cr1.execute("select * from menu")
